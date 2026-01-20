@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>Latihan Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2 style="color: rgb(90, 63, 63);" style="font-size: 25pt;">FORM ISIAN</h2>
+        <form action="#" method="POST">
+            <table>
+                <tr>
+                   <td>Nama :</td> 
+                   <td><input type="text" name="first_name" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Umur :</td>
+                    <td><input type="number" name="umr"></td>
+                </tr>
+                <tr>
+                    <td>Umur : </td>
+                    <td><input type="number" name="umr"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal : </td>
+                    <td><input type="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td>Email : </td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>File : </td>
+                    <td><input type="file" name="file"></td>
+                </tr>
+                <tr>
+                    <td>Warna :</td>
+                    <td><input type="color" name="color"></td>
+                </tr>
+                <tr>
+                   <td>Hidden :</td> 
+                   <td><input type="hidden" name="hidden"></td>
+                </tr>
+                <tr>
+                    <td>Bulan :</td>
+                    <td><input type="month" name="month"></td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td><input type="password" name="pasword"></td>
+                </tr>
+                <tr>
+                    <td>Jarak :<br></td>
+                    <td><input type="range" name="range"></td>
+                </tr>
+                <tr>
+                    <td>cari :</td>
+                    <td><input type="search" name="search"></td>
+                </tr>
+                <tr>
+                    <td>Telepon :</td>
+                    <td><input type="tel" name="tel"></td>
+                </tr>
+                <tr>
+                    <td>Waktu :</td>
+                    <td><input type="time" name="time"></td>
+                </tr>
+                <tr>
+                    <td>Minggu :<br></td>
+                    <td><input type="week" name="week"></td>
+                </tr>
+                <tr>
+                    <td>Tombol :<br></td>
+                    <td><input type="button" name="button"></td>
+                </tr>
+                <tr>
+                    <td>Hobby :<br></td>
+                    <td>
+                    <input type="checkbox" name="Hobby[]">Bersepedah<br>
+                    <input type="checkbox" name="Hobby[]">Bermain Game<br>
+                    <input type="checkbox" name="Hobby[]">Berenang<br>
+                    <input type="checkbox" name="Hobby[]">Menari<br>
+                </td>
+                </tr>
+                <tr>
+                    <td>Jenis kelamin:<br></td>
+                    <td>
+                    <input type="radio" name="jenis[]">Laki-laki<br>
+                    <input type="radio" name="jenis[]">Perempuan<br>
+                    <input type="radio" name="jenis[]">Rahasia<br></td>
+                </tr>
+                <tr>
+                    <td>Kota Asal : <br></td>
+                    <td>
+                    <select name="Kota_Asal">
+                        <option value="Kediri">Kediri</option>
+                        <option value="Malang">Malang</option>
+                        <option value="Batu">Batu</option>
+                        <option value="Jember">Jember</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat Lengkap : <br></td>
+                    <td>
+                    <textarea name="alamat" cols="50" rows="7"></textarea><br>
+                    <input type="submit" value="KIRIM DATA" class="btn kirim">
+                    <input type="reset" value="RESET" class="btn reset"> 
+                    <input type="button" value="KLIK ME!" class="btn klik" onClick="alert('Hallo')">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
